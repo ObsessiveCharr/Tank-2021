@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &553759468815259317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553759468815259319}
+  - component: {fileID: 553759468815259318}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &553759468815259319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553759468815259317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2386397, y: 3.8003902, z: -3.9428797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553759468815259318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553759468815259317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872c734ef695984408e4bc1aeca327f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerFire
+    clip: {fileID: 8300000, guid: 9a79e0a741ff90249b36f73271d5a908, type: 3}
+    volume: 0.62
+    pitch: 1
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 5a527d0f24ab7844d972acd9e0430029, type: 3}
+    volume: 0.74
+    pitch: 1
+    source: {fileID: 0}
+  - name: Steel
+    clip: {fileID: 8300000, guid: 3c65641de9bb23e4eb938b4fcf86d5f7, type: 3}
+    volume: 0.43
+    pitch: 1.8
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: 8921f08b25dc76748856c40f09ad4360, type: 3}
+    volume: 0.61
+    pitch: 1
+    source: {fileID: 0}
+  - name: MainMenuSound
+    clip: {fileID: 8300000, guid: 3b5e4086cffbbf2408ee7c2050e873e1, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: StartSound
+    clip: {fileID: 8300000, guid: 71e60a955853ba44fbd30881072edd2c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
